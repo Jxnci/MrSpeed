@@ -1,0 +1,146 @@
+.main-section-info{
+	background-color: #F0F1F3;
+	padding: 6rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.imagen-inicio{
+	width: 100%;
+	margin-top: -55px;
+	margin-bottom: -80px;
+}
+.content-info-section{
+	width: 50%;
+	padding: 12rem 5rem;
+	background-color: #D2D6DC;
+}
+.content-info-section p{
+	text-align: justify;
+	padding: 1rem;
+	font-family: serif;
+}
+.parrafo-main{
+	font-size: 1.9rem;
+}
+.title-info b{
+	font-size: 3.2rem;
+	font-family: serif;
+}
+.title-info span{
+	font-size: 3.2rem;
+	color: #6BB12D;
+}
+.main-section-info figure{
+	margin: 2rem;
+}
+.section-marcas{
+	display: flex;
+	background-color: #F0F1F3;
+	justify-content: space-between;
+	align-items: center;
+	padding: 14rem;
+}
+.marcas-info{
+	width: 40%;
+}
+.marcas-title{
+	font-size: 3.2rem;
+	border-bottom-style: solid;
+	border-color: #6BB12D;
+	padding-bottom: 2rem;
+}
+.marcas-text{
+	padding-top: 1rem;
+	font-size: 1.8rem;
+}
+.section-marcas ul{
+	display: flex;
+	list-style-type: none;
+}
+.section-marcas img{
+	text-align: center;
+	width: 10rem;
+}
+
+.section-servicios{
+	background-color: #D2D6DC;
+	padding: 9rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.section-servicios h1{
+	font-size: 3.2rem;
+	border-bottom-style: solid;
+	border-color: #6BB12D;
+	padding-bottom: 1rem; 
+}
+.section-servicios p{
+	font-size: 1.8rem;
+	padding: 2rem 0rem 3rem;
+}
+.section-servicios ul{
+	display: flex;
+	list-style-type: none;
+}
+/*W3s*/
+.contenedor-servicio {
+  position: relative;
+  margin: 2rem;
+  overflow: hidden;
+  color: white;
+}
+.centro {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+  font-weight: bold;
+  background-color: rgba(80,80,80,0.4);
+}
+.centro:hover{
+	background-color: rgba(220,240,240,0.8);
+	color: black;
+	font-size: 2rem;
+	transition: all 0.6s;
+}
+.contenedor-servicio img{
+  max-width: 100%;
+  vertical-align: middle;
+}
+.contenedor-servicio img:hover{
+	transition: opacity 1s;
+	opacity: 1;
+	transform: scale(1);
+	color: white;
+	font-size: 2rem;
+}
+.section-productos{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 4rem;
+	background-color: #6BB12D;
+}
+.section-productos h1{
+	color: white;
+	font-size: 3rem;
+}
+.boton-pro button{
+	margin: 0.6rem 0rem;
+}
+.boton-pro a{
+	display: block;
+	line-height: 3.6rem;
+	padding: 0rem 5rem;
+	text-decoration: none;
+	color: black;
+}
+.boton-pro button:hover{
+	transition: background-color 0.5s;
+	background-color: #D2D6DC;
+	text-decoration: none;
+}

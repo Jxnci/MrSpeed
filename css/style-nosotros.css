@@ -1,0 +1,129 @@
+body{
+    background-image: url("../fondos/redes.jpg");
+}
+main{
+	background-color: #EDEDED;
+}
+.main-nosotros-vision{
+	display: flex;
+	padding: 5rem;
+}
+.main-nosotros-vision div{
+	display: flex;
+	width: 50%;
+	flex-direction: column;
+}
+.main-head{
+    margin: auto;
+    text-align: center;
+    padding: 10rem;
+	background-color: rgb(237, 237, 237,0.6);
+}
+.main-head h1{
+    color: #33364D;
+	font-size: 3rem;
+}
+.text-nostros, .text-nostros p{
+	font-size: 1.8rem;
+	padding: 2rem;
+	border-radius: 1rem;
+	text-align: justify;
+	background-color: rgba(220,220,220,1);
+}
+.nosotros-title-info{
+	text-align: right;
+	font-size: 2rem;
+}
+.nosotros-title-info span{
+	text-align: right;
+	font-size: 3rem;
+	color: green;
+}
+.nosotros-imagen,.nosotros-imagen img{
+	width: 10rem;
+	align-items: center;
+	justify-content: center;
+}
+.nosotros-title{
+	background-color: #D2D6DC;
+	padding: 5rem;
+	text-align: center;
+}
+.nosotros-title h1{
+	font-size: 3rem;
+	padding-bottom: 2rem;
+}
+.nosotros-contacto{
+	background-color: #F0F1F3;
+	display: flex;
+	justify-content: space-around;
+	padding: 5rem;
+}
+.nosotros-contacto h1{
+	font-size: 2rem;
+	margin: 2rem;
+	padding: 2rem;
+	border-bottom-style: solid;
+	border-color: green;
+}
+.nosotros-contacto iframe{
+	width: 60rem;
+	height: 40rem;
+	border-color: green;
+}
+.nosotros-contacto form{
+	width: 40%;
+	padding: 0rem 5rem 4rem;
+	margin: 0rem 2rem;
+	text-align: center;
+	background-color: #D2D6DC;
+}
+.nosotros-contacto div{
+	padding: 1rem 0rem;
+}
+.nosotros-contacto div input, textarea{
+	padding: 1rem 0rem;
+	width: 100%;
+	text-align: center;
+}
+.nosotros-enviar-pedido{
+	margin: 1rem 0rem;
+	padding: 1rem 2rem;
+}
+.nosotros-reclamaciones{
+	background-color: #D2D6DC;
+	padding: 3rem;
+}
+.nosotros-reclamaciones h1{
+	font-size: 3rem;
+	padding: 3rem;
+}
+.list-libro{
+	display: flex;
+	padding: 5rem;
+	border-top-style: solid;
+	border-color: green;
+}
+.libro{
+	background-color: #EDEDED;
+	padding: 4rem;
+}
+.libro h1{
+	font-size: 3rem;
+	padding: 2rem;
+}
+.list-libro li,.list-libro li p,.list-libro li p u{
+	font-size: 2rem;
+	padding: 1rem;
+}
+.libro-text p{
+	font-size: 2rem;
+}
+.nosotros-boton-libro{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 2rem;
+	background-color: #F0F1F3;
+	border-radius: 1.5rem;
+}

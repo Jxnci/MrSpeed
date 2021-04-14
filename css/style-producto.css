@@ -1,0 +1,88 @@
+body{
+	background-color: #F0F1F3;
+}
+main{
+	margin: 5rem 3rem;
+	display: flex;
+}
+.list-productos{
+	margin: 0rem 2rem 0rem 4rem;
+	padding: 2rem 0rem;
+	width: 20%;
+	align-items: center;
+	background-color: #D2D6DC;
+	border-right-style: solid;
+	border-color: #419A1C;
+	border-radius: 1rem;
+	height: 43rem;
+}
+.list-productos a{
+	display: block;
+	padding: 1rem;
+	border-radius: 1rem;
+	text-decoration: none;
+	color: black;
+}
+.list-productos li{
+	display: block;
+	list-style-type: none;
+	margin: 0rem 2rem;
+}
+.list-productos a:hover{
+	background-color: #F0F1F3;
+	transition: all 0.5s;
+}
+.contenedor-tabla tr{
+	display: flex;
+}
+.contenedor-tabla td{
+	background-color: white;
+	border-radius: 3rem;
+	width: 33.3%;
+	height: 38rem;
+	text-align: center;
+	border: 1rem solid #F0F1F3;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.contenedor-tabla div{
+	background-color: white;
+	padding: 2rem;
+	border-radius: 1rem 1rem 0rem 0rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.contenedor-tabla h1{
+	font-size: 2.6rem;
+	color: #33364D;
+}
+.contenedor-tabla a{
+	text-decoration: none;
+	color: white;
+	border-radius: 2rem;
+	padding: 0.2rem 0rem 0rem 1rem;
+	background-color: #ffffff;
+}
+.contenedor-tabla a:hover{
+	background-color: #3BB44B;
+	transition: 0.5s;
+}
+.contenedor-tabla a img{
+	width: 4rem;
+	vertical-align: middle;
+	border-radius: 2rem;
+}
+.contenedor-tabla img{
+	width: 15rem;
+	background-image: green;
+}
+.producto{
+	margin: auto;
+}
+img~p{
+	padding: 1rem;
+	border-radius: 0rem 0rem 1rem 1rem;
+	background-color: white;
+}

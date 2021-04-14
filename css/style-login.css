@@ -1,0 +1,80 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+html{
+	font-size: 62.5%;
+}
+body{
+	display: flex;
+	font-size: 2rem;
+	color: white;
+	margin-top: 10rem; 
+	text-align: center;
+	justify-content: center;
+	background-image: url(../fondos/laptop.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+body div{
+	justify-content: space-around;
+}
+.logo-login{
+	background-color: #D2D6DC;
+	padding: 15rem 10rem;
+	display: block;
+	border-radius: 0rem 2rem 2rem 0rem;
+}
+.form-login{
+	background-color: rgba(220,220,220,0.5);
+	border-radius: 2rem 0rem 0rem 2rem;
+	padding: 6rem 10rem;
+}
+.form-login header{
+	padding: 1rem 0rem 1rem;
+	color: #33364D;
+	font-weight: bold;
+	letter-spacing: 0.4rem;
+}
+.input-login input{
+	display: block;
+	border: 0rem;
+	background-color: rgba(250,250,250,0.7);
+	outline: none;
+	border-radius: 2rem;
+	margin: 3rem 0rem;
+	padding: 1.3rem 5rem;
+	font-size: 1.7rem;
+	text-align: center;
+	font-weight: bold;
+}
+.datos-login input:active{
+	border-color: none;
+	border: none;
+}
+button{
+	display: inline-block;
+  	border-radius: 4px;
+  	background-color: #33364D;
+  	border: none;
+  	color: white;
+  	text-align: center;
+  	font-size: 2rem;
+  	padding: 1.3rem 6rem;
+  	cursor: pointer;
+}
+button:hover{
+	transition: all 0.5s;
+	background-color: #419A1C;
+    color: white;
+}
+.form-login a{
+	font-size: 1.4rem;
+	color: white;
+	text-decoration: none;
+}
+.form-login a:hover{
+	color: #33364D;
+}

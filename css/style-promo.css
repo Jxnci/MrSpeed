@@ -1,0 +1,130 @@
+body{
+    background-image: url("../fondos/navidad.jpg");
+}
+.main-head{
+    margin: auto;
+    text-align: center;
+    padding: 10rem;
+    background-color: rgb(237, 237, 237,0.6);
+}
+.main-head h1{
+    color: #33364D;
+    font-size: 3rem;
+}
+.titulo{
+    background-color: #D2D6DC;
+    padding: 4.5rem 10rem;
+}
+.titulo h1{
+    font-size: 3rem;
+    color: #121F3D;
+}
+.promo-productos{
+    display: flex;
+    padding: 6rem 9rem;
+    justify-content: space-between;
+    background-color: #EDEDED;
+}
+.promo-productos>div{
+    background-color: white;
+    width: 33%;
+    padding: 2rem;
+    margin: 0rem 2rem;
+	border-radius: 2rem;
+	align-items: center;
+	justify-content: space-between;
+}
+.promo-productos p{
+    margin: 4rem 1rem 2rem;
+    color: #121F3D;
+    text-align: center;
+}
+.promo-productos b{
+    font-size: 2.1rem;
+    color: red;
+}
+.tproducto h1{
+	font-size: 2.6rem;
+	color: #33364D;
+}
+.tproducto, .tproducto a{
+    display: flex;
+    align-items: center;
+	justify-content: space-around;
+}
+.tproducto a{
+	text-decoration: none;
+	color: white;
+	border-radius: 3rem;
+	padding: 0.2rem 0rem 0rem 1rem;
+	background-color: #ffffff;
+}
+.tproducto a:hover{
+	background-color: #3BB44B;
+	transition: 0.5s;
+}
+.producto{
+    padding-left: 10rem;
+    width: 25rem;
+    margin-top: 3rem;
+}
+span+img{
+    width: 5rem;
+}
+.separador0,.separador2{
+    position: absolute;
+    border-radius: 3rem;
+    padding: 2rem;
+    top: 69%;
+    margin: 0rem 108rem;
+    background-color: #6BB12D;
+}
+.separador2{
+    margin: 0rem 115rem;
+    background-color: #121F3D;
+}
+.separador,.separador1{
+    position: absolute;
+    border-radius: 3rem;
+    padding: 2rem;
+    top: 182%;
+    margin: 0rem 108rem;
+    background-color: #6BB12D;
+}
+.separador1{
+    margin: 0rem 115rem;
+    background-color: #121F3D;
+}
+.promo-servicio{
+    background-color: #EDEDED;
+}
+.seccion1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 5rem;
+}
+.seccion1 div{
+    padding: 4rem 8rem 0rem;
+}
+.seccion1 h1,.seccion1 p{
+    color: #121F3D;
+    font-size: 1.8;
+}
+.seccion1 span{
+    color: #6BB12D;
+    font-size: 2rem;
+}
+.seccion1 span b{
+    font-size: 2.2rem;
+    color: red;
+}
+
+.separador3{
+    position: absolute;
+    border-radius: 3rem;
+    padding: 1rem 60rem;
+    top: 315.5%;
+    margin: 8rem;
+    background-color: #6BB12D;
+}

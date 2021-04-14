@@ -1,0 +1,50 @@
+body{
+    padding: 2rem;
+    background-color: #D2D6DC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-compra h1{
+    color: #121F3D;
+    font-size: 3rem;
+    text-align: center;
+}
+.input-compra{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.input-compra input{
+    padding: 1rem;
+    font-size: 1.8;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 1rem;
+}
+.chek,.chek span{
+    font-size: 1.4rem;
+    padding: 2rem;
+    color: #121F3D;
+}
+.logo-login{
+    background-color: rgba(18, 31, 61, 0.1);
+    padding: 10rem 4rem;
+    border-radius: 2rem;
+}
+button{
+	display: inline-block;
+  	border-radius: 0.4rem;
+  	background-color: #33364D;
+  	border: none;
+  	color: white;
+  	text-align: center;
+  	padding: 1rem 4rem;
+    cursor: pointer;
+    margin-left: 8rem;
+}
+button:hover{
+	transition: all 0.5s;
+	background-color: #419A1C;
+    color: white;
+}

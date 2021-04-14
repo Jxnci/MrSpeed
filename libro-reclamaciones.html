@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo/logo0.png">
+    <link rel="stylesheet" href="css/style-libro.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MrSpeed-Reclamos</title>
+</head>
+<body>
+    <header>
+        <div>
+            <figure>
+                <img src="logo/logo1.png" alt="mrspeed">
+            </figure>
+        </div>
+        <div>
+            <div>
+                <a href="nosotros.html"><img src="logo/in.png" alt=""></a>
+                <a href="nosotros.html"><img src="logo/fc.png" alt=""></a>
+                <a href="nosotros.html"><img src="logo/tw.png" alt=""></a>
+                <a href="nosotros.html"><img src="logo/yt.png" alt=""></a>
+			</div>
+        </div>
+    </header>
+    <section class="formulario">
+        <div class="titulo-form">
+            <h1 class="titulo">Hoja de reclamos / Requerimiento</h1>
+            <h1>Mr.Speed S.A.</h1>
+        </div>
+        <form method="get" action="index.html" class="form-libro">
+            <div>
+                <h1>RUC MR SPEED</h1>
+                <p>20259702411</p>
+                <h1>Canal de Ingreso</h1>
+                <p>Correo Electrónico</p>
+                <p>Los campos marcados con (*) son obligatorios.</p>
+                <h1>Datos Generales</h1>
+            </div>
+            <div>
+                <span>*Fecha de Presentación: </span>
+                <input type="date" id="fecha-presentacion" name="fecha-presentacion"/>
+                <span>*Nombres y Apellidos del Usuario:</span>
+                <input type="text" name="nombre" id="nombre" autocomplete="name" required/>
+            </div>
+            <div>
+                <span>NOMBRE DEL REPRESENTANTE/TUTOR:</span>
+                <input type="text" name="nombre" id="nombre" autocomplete="name" required/>
+                <p>
+                    En caso de Representante Legal, deberá presentar en Agencia original de Carta Poder con firma legalizada por Notario Público.
+                </p>
+                <p>
+                    En caso de Menor de Edad, los padres o representantes deben presentar en Agencia documentación que sustente la tutela del menor.
+                </p>
+            </div>
+            <div>
+                <span>*Seleccione el tipo de documento</span>
+                <input type="checkbox" name="DNI" id="a"><span>DNI</span>
+                <input type="checkbox" name="Carnet" id=""><span>Carnet Extranjeria</span>
+            </div>
+            <div class="libro-datos">
+                <div>
+                    <span>*Número de Documento </span>
+                    <input type="text" name="" id="" required>
+                    <span>*Dirección</span>
+                    <input type="text" name="" id="" required>
+                    <span>*Distrito</span>
+                    <input type="text" name="" id="" required>
+                    <span>*Provincia</span>
+                    <input type="text" name="" id="" required>
+                </div>
+                <div>
+                    <span>*Región</span>
+                    <input type="text" name="" id="" required>
+                    <span>*Teledono 1</span>
+                    <input type="text" name="" id="" required>
+                    <span>*Telefono 2</span>
+                    <input type="text" name="" id="" required>
+                    <span>*Correo Electrónico</span>
+                    <input type="email" name="correo" id="correo" autocomplete="email" required/>
+                </div>
+            </div>
+            <div>
+                <h1>Datos de Reclamo/Requerimiento</h1>
+            </div>
+            <div>
+                <span>*Seleccione solo un recuadro</span>
+                <input type="checkbox" name="Requerimiento" id="a"><span>Requerimiento</span>
+                <input type="checkbox" name="reclamo" id=""><span>Reclamo</span>
+                <p>
+                    1.REQUERIMIENTO: Solictud o pedido de información.
+                </p>
+                <p>
+                    2.RECLAMO: Insatisfacción del producto o servicio, incumplimiento de contrato o demora en atención de un reclamo anterior. 
+                </p>
+                <h1>PRODUCTO (seleccionar el Producto relacionado al requerimiento/reclamo)</h1>
+            </div>
+            <div>
+                <input type="checkbox" name="Requerimiento" id="a"><span>Producto</span>
+                <input type="checkbox" name="reclamo" id=""><span>Servicio</span>
+                <input type="checkbox" name="Requerimiento" id="a"><span>Atención/Trato</span>
+                <input type="checkbox" name="reclamo" id=""><span>Otro</span>
+            </div>
+            <div class="libro-datos">
+                <div>
+                    <span>(Nombre del articulo/servicio)</span>
+                    <input type="text" name="" id="" required>
+                    <span>Motivo resumen del reclamo/requerimiento</span>
+                    <input type="text" name="" id="" required>
+                </div>
+                <div>
+                    <span>Número de  producto</span>
+                    <input type="text" name="" id="" required>
+                    <span>Monto requerido/reclamado S/.</span>
+                    <input type="text" name="" id="" required>
+                </div>
+            </div>
+            <div>
+                <span>Detalle /Cliente indica (señale un breve resumen de lo solicitado o reclamado)</span>
+                <br><textarea placeholder="Escribe aqui el Asunto!"></textarea>
+            </div>
+            <div>
+                <h1>DOCUMENTOS QUE SE DEBEN ADJUNTAR SI EL RECLAMO ES:</h1>
+                <p>
+                   <i>CONSUMOS NO RECONOCIDOS:</i> Copia de DNI y codigo de producto.
+                </p>
+                <p>
+                    <i>PAGOS O NOTAS DE CREDITO NO PROCESADOS:</i> Copia del voucher.
+                </p>
+                <p>
+                    <i>INADECUADA INFORMACION DE PROMOCIONES/ WEB / RIPLEYMATICO:</i> Copia del voucher o de la informacionde la pagina web.
+                </p>
+            </div>
+            <div>
+                <h1>COMENTARIOS PROVEEDOR:</h1>
+                <p>
+                    De conformidad con la Circular SBS G-184-2015 y en cumplimiento del D.S 006-2014 PCM, el plazo máximo de atención es de 30 días calendario desde su presentación, el cual podrá extenderse excepcionalmente de acuerdo a la complejidad del reclamo o requerimiento lo cual será informado oportunamente mediante un previo aviso al USUARIO.
+                </p>
+                <p>
+                    Con el envío del presente documento EL USUARIO valida la información consignada y declara haber sido debidamente informado por MR SPEED sobre el procedimiento, plazo de atención y medio de respuesta a su reclamo o requerimiento.
+                </p>
+                <p>
+                    En caso el reclamo resulte procedente, será informado a través del Medio de Respuesta elegido por usted; de ser Improcedente, usted recibirá una comunicación vía correo electrónico o a su domicilio, según esta misma elección.
+                </p>
+                <p>
+                    Su HOJA DE RECLAMACIÓN/REQUERIMIENTO así como el CÓDIGO para su seguimiento, le será enviado a su correo electrónico por el cual nos està enviando la presente comunicación. Asimismo, estará disponible en nuestras Agencias de acuerdo a su horario de atención.
+                </p>
+                <p>
+                    Si el reclamo es por Consumo No reconocido debe adjuntar además el Formato de Consumos No Reconocidos adjunto en la página web.
+                </p>
+                <h1>ATENCIÓN AL CLIENTE - MR SPEED</h1>
+            </div>
+            <div class="enviar-libro">
+                <button type="submit" value="Enviar">Enviar</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div class="footer-div">
+            <h1>Nuestras Redes</h1>
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="logo/in.png" alt=""> Instagram</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="logo/fc.png" alt=""><span> Facebook</span></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/" target="_blank"><img src="logo/tw.png" alt=""><span> Twitter</span></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="logo/yt.png" alt=""><span> Yotutube</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-div">
+            <h1>Servicios</h1>
+            <ul>
+                <li>
+                    <a href="servicios.html">Mantenimiento</a>
+                </li>
+                <li>
+                    <a href="servicios.html">Reparacion</a>
+                </li>
+                <li>
+                    <a href="servicios.html">A Domicilio</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-div">
+            <h1>Productos</h1>
+            <ul>
+                <li>
+                    <a href="productos.html">Mouse</a>
+                </li>
+                <li>
+                    <a href="productos.html">Teclados</a>
+                </li>
+                <li>
+                    <a href="productos/microfono.html">Microfonos</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-div">
+            <div class="footer-slogan">
+                <p>
+                    Las computadoras tienen mucha  memoria pero nada de imaginación.
+                </p>
+                <p>
+                    - Anónimo
+                </p>
+            </div>
+            <div class="footer-page-author">
+                <p>
+                    Hecho por estudiante de Computacion e Informática - IEGB
+                </p>
+            </div>
+        </div>
+        <section class="footer-contacto">
+            <h1 class="footer-w">
+                <a href="https://www.facebook.com/compuplazainfotel" target="_blank"><img src="logo/messenger.png" alt="Icono Messenger"></a>
+            </h1>
+            <h1 class="footer-m">
+                <a href="https://wa.me/51934680481/?text=¡Hola%20Mr.%20Speed!,%20Deseo%20realizar%20una%20consulta." target="_blank"><img src="logo/whatsapp.png" alt="Icono Messenger"></a>
+            </h1>
+        </section>
+    </footer>
+    <div class="copyrith">
+        <p>
+            © Mr. Speed Support Web
+        </p>
+        <div>
+            Creado por Janci Urdanivia
+        </div>
+    </div>
+</body>
+</html>

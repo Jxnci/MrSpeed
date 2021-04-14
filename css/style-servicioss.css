@@ -1,0 +1,22 @@
+
+section .servicio-opcion .alto{
+    margin: 10rem 7rem;
+    color: #121F3D;
+    font-size: 2.8rem;
+}
+.separador{
+    position: absolute;
+    border-radius: 3rem;
+    padding: 1rem 60rem;
+    top: 62%;
+    margin: 0rem 5rem;
+    background-color: #6BB12D;
+}
+.separador1{
+    position: absolute;
+    border-radius: 3rem;
+    padding: 1rem 60rem;
+    top: 237%;
+    margin: 0rem 5rem;
+    background-color: #6BB12D;
+}
